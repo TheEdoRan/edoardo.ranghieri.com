@@ -4,8 +4,9 @@
 	"description": "Personal website",
 	"main": "index.js",
 	"scripts": {
-		"build": "tailwindcss -i ./tailwind.css -o ./public/style.css",
-		"tw": "npm run build -- --watch"
+		"tw": "tailwindcss -i ./tailwind.css -o ./public/style.css",
+		"build": "npm run tw -- --minify",
+		"dev": "npm run tw -- --watch"
 	},
 	"repository": {
 		"type": "git",
