@@ -1,4 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c4ca7219-35d2-46ab-92ca-7f9ddc846ff2/deploy-status)](https://app.netlify.com/sites/condescending-mcnulty-b65717/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b3feaa14-61dd-4668-9b72-c0c90e15ee9c/deploy-status)](https://app.netlify.com/sites/edoardoranghieri/deploys)
 
 Personal website: [edoardo.ranghieri.com](https://edoardo.ranghieri.com)
-
