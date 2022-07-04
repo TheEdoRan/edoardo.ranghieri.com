@@ -4,4 +4,4 @@
 .LSOverride
 
 /node_modules
-/style.css
+/public/style.css
