@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply antialiased min-h-screen bg-slate-100 text-slate-900 px-4 py-4 md:py-8 flex flex-col items-center justify-between dark:bg-slate-900 dark:text-slate-100;
+	}
+
+	footer a {
+		@apply text-rose-500 transition hover:text-rose-600 dark:text-rose-400 dark:hover:text-rose-500;
+	}
+}
+
+@layer components {
+	.form-group {
+		@apply flex flex-col gap-y-1 text-lg;
+	}
+
+	.form-group input,
+	textarea {
+		@apply rounded-lg border-slate-400 focus:ring-rose-500 focus:border-rose-500 dark:bg-slate-700;
+	}
+}
