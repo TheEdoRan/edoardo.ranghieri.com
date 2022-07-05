@@ -38,12 +38,13 @@
 		<meta name="msapplication-TileColor" content="#FFFFFF" />
 		<meta name="msapplication-TileImage" content="/assets/favicons/favicon-144.png" />
 		<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml" />
-		<script defer src="/assets/js/cycler.js"></script>
-		<script defer src="/assets/js/year.js"></script>
 	</head>
 	<body>
 		<header class="h-20">
-			<h1 id="hello-world" class="text-lg sm:text-3xl lg:text-4xl text-center font-mono font-medium">Hello, world!</h1>
+			<h1
+				id="hello-world"
+				class="text-lg sm:text-3xl lg:text-4xl text-center font-mono font-medium after:animate-hello-world"
+			></h1>
 		</header>
 		<main class="flex flex-col gap-14 text-center justify-center w-full max-w-3xl mt-4 md:mt-0 md:flex-row">
 			<section>
@@ -194,8 +195,6 @@
 				<small>
 					<a href="/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
 				</small>
-				<small class="hidden xs:block">&bull;</small>
-				<small>&copy; <span id="current-year">2022</span></small>
 			</div>
 		</footer>
 	</body>

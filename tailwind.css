@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+#hello-world::after {
+	animation: helloWorld 25s linear infinite;
+	content: "";
+}
+
+@keyframes helloWorld {
+	0%,
+	100% {
+		content: 'console.log("Hello, world!");';
+	}
+	20% {
+		content: 'printf("Hello, world!");';
+	}
+	40% {
+		content: 'std::cout << "Hello, world!";';
+	}
+	60% {
+		content: 'fmt.Println("Hello, world!")';
+	}
+	80% {
+		content: 'print("Hello, world!")';
+	}
+}
+
 @layer base {
 	body {
 		@apply antialiased min-h-screen bg-slate-100 text-slate-900 px-4 py-4 md:py-8 flex flex-col items-center justify-between dark:bg-slate-900 dark:text-slate-100;
