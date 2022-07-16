@@ -1,2 +1,4 @@
 https://ranghieri.com/*	https://edoardo.ranghieri.com/:splat 301!
 https://www.ranghieri.com/*	https://edoardo.ranghieri.com/:splat 301!
+/js/script.js https://stats.ranghieri.com/js/script.js 200
+/api/event https://stats.ranghieri.com/api/event 200
